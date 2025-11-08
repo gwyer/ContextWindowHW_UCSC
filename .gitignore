@@ -32,11 +32,17 @@ env/
 *.iws
 .idea_modules/
 
-# Data files
+# Data files (ignore everywhere except results/)
 *.csv
 *.png
 *.jpg
 *.jpeg
+
+# Exception: Allow results directory files
+!results/*.csv
+!results/*.png
+!results/*.jpg
+!results/*.jpeg
 
 # OS
 .DS_Store
